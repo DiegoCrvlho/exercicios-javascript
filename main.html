@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Atividade</title>
+  </head>
+  <body>
+    <h3>Informe o aluno</h3>
+    <input type="text" id="Nome" placeholder="Nome do Aluno" />
+    <input type="number" id="Matricula" placeholder="Matricula" />
+
+    <hr />
+    <br />
+    <h3>Insira as notas</h3>
+    <input type="number" id="N1" placeholder="Nota N1" />
+    <input type="number" id="N2" placeholder="Nota N2" />
+    <button id="CalcularButton">Calcular</button>
+
+    <hr />
+    <br />
+    <h3 class="apresentaNotas hidden">
+      O aluno <span id="alunoNome"></span>, matricula
+      <span id="alunoMatricula"></span>, obteve a media final
+      <span id="alunoMedia"></span>
+    </h3>
+    <h2>Questão 2</h2>
+    <h3>Número de celular</h3>
+    <input
+      type="number"
+      class="numeroTelefone"
+      placeholder="Número de telefone"
+    />
+    <button class="button1">Descubra</button>
+    <h3 class="situacao"></h3>
+    <h2>Questão 3</h2>
+    <h3>Digite sua altura:</h3>
+    <input type="number" class="altura" />
+    <h3>Digite seu peso:</h3>
+    <input type="number" class="peso" />
+    <button class="button2">Calcular o ICM</button>
+    <h3 class="resultadoICM"></h3>
+
+    <script src="main.js"></script>
+  </body>
+</html>
